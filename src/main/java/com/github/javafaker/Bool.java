@@ -6,7 +6,7 @@ public class Bool {
     protected Bool(Faker faker) {
         this.faker = faker;
     }
-
+    //Test
     public boolean bool() {
         return faker.random().nextBoolean();
     }
